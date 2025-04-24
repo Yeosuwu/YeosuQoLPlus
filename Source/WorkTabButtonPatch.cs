@@ -23,7 +23,7 @@ namespace YeosuQoLPlus
             if (Widgets.ButtonText(buttonRect, "작업 자동 설정"))
             {
                 AutoWorkManager.ApplyWorkPriorities();
-                Messages.Message("자동 작업 우선순위가 적용되었습니다.", MessageTypeDefOf.PositiveEvent);
+                Messages.Message("[YeosuQoL+] 작업 우선순위가 수동으로 적용되었습니다.", MessageTypeDefOf.PositiveEvent);
             }
 
             TooltipHandler.TipRegion(buttonRect, "정착민들의 작업 우선순위를 자동으로 설정합니다.");

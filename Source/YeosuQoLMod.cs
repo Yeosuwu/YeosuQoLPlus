@@ -15,27 +15,6 @@ namespace YeosuQoLPlus
 
             var harmony = new Harmony("YeosuQoLPlus");
             harmony.PatchAll();
-
-            LongEventHandler.ExecuteWhenFinished(() =>
-            {
-                if (settings.autoWorkPriority)
-                {
-                    if (Current.Game != null && Find.PlaySettings != null)
-                    {
-                        if (!Find.PlaySettings.useWorkPriorities)
-                        {
-                            Find.PlaySettings.useWorkPriorities = true;
-                        }
-
-                        Messages.Message("[YeosuQoL+] 작업 우선순위 자동 설정 실행됨.", MessageTypeDefOf.PositiveEvent);
-                        AutoWorkManager.ApplyWorkPriorities();
-                    }
-                    else
-                    {
-                        Log.Warning("[YeosuQoL+] Current.Game 또는 Find.PlaySettings 가 null입니다.");
-                    }
-                }
-            });
         }
 
         public override string SettingsCategory() => "Yeosu QoL+";
