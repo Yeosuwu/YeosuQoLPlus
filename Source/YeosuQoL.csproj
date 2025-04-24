@@ -17,7 +17,7 @@
       <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     
-    <!-- ✅ 추가된 참조 -->
+    <!-- 추가된 참조 -->
     <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
