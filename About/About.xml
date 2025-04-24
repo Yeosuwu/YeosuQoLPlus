@@ -1,0 +1,9 @@
+<ModMetaData>
+  <name>Yeosu QoL+</name>
+  <author>Yeosu</author>
+  <description>모든 QoL 기능을 한 번에 담은 모드. 개별 설정 가능.</description>
+  <packageId>yeosu.qolplus</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+</ModMetaData>
